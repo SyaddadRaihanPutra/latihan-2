@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 2</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Box Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/SMKN1-JAKARTA.png" type="image/x-icon">
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+      /* .description {
+      text-align: justify;
+      } */
+      @media screen and (min-width: 350px) {
+      .card {
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 20px;
+      }
+      }
+      @media screen and (min-width: 860px) {
+      #mobile {
+          display: none;
+      }
+      .footer-mobile {
+          display: none;
+      }
+      }
+      @media screen and (max-width: 860px) {
+      #contents {
+          display: none;
+      }
+      .footer {
+          display: none;
+      }
+      }
+      @media screen and (max-width: 450px) {
+      .tabs {
+          margin-top: 10px;
+          padding: 10px;
+      }
+      .tabs__content {
+          margin-bottom: 30px;
+      }
+      .footer {
+          background-color: #009578;
+          height: 100vh;
+      }
+      }
+      @media screen and (min-width: 500px) {
+      #readmore {
+          display: none;
+      }
+      #readmore-mobile {
+          margin: 20px auto 25px auto;
+      }
+      }
+      @media screen and (max-width: 500px) {
+      video {
+          margin-top: 7px;
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+      }
+      #readmore {
+          display: none;
+      }
+      #readmore-mobile {
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 25px;
+      }
+      }
+    </style>
+  </head>
+  <body style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">
+    <header style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;background-color:#FFD124;align-items:center;text-align:center;">
+      <div style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">
+        <p style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;"><img src="http://smkn1jakarta.sch.id/wp-content/uploads/2016/11/cropped-logo-smkn-1-jakarta-pusat.png" width="" alt="logo" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;"></p>
+      </div>
+    </header>
+    <!-- Navbar -->
+    <div class="navbar" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;background-color:#0093AB;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;">
+      <nav style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">
+        <ul style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;display:flex;">
+          <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style-type:none;padding:10px;margin-left:10px;color:#ffffff;"><a href="#" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;padding:5px;">Beranda</a></li>
+          <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style-type:none;padding:10px;margin-left:10px;color:#ffffff;"><a href="#" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;padding:5px;">Profil</a></li>
+          <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style-type:none;padding:10px;margin-left:10px;color:#ffffff;"><a href="berita.html" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;padding:5px;">Berita</a></li>
+          <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style-type:none;padding:10px;margin-left:10px;color:#ffffff;"><a href="kontak.html" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;padding:5px;">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="contents" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;border:solid #ffffff;margin:1px;margin-top:40px;text-align:justify;">
+      <div class="sidebar" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">
+        <div align="center" class="column1" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;float:left;width:33.33%;padding:10px;height:300px;border:solid #ffffff;border-radius:15px;background-color:#FFD124;">
+          <div class="konten1" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-top:20px;">
+            <h2 align="center" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-bottom:5px;">Profil Sekolah</h2>
+            <video controls width="350px" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;border-radius:15px;margin-bottom:5px;">
+              <source src="https://syaddad.netlify.app/assets/img/PROFILE SMKN 1 JAKARTA 2021.mp4" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">
+            </source></video>
+        </div>
+      </div>
+      <div class="column" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;float:left;width:33.33%;padding:20px;height:300px;border:solid #ffffff;border-radius:15px;color:#ffffff;background-color:#0093AB;">
+        <h2 align="center" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-transform:uppercase;">sejarah</h2>
+        <p style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">Sekolah Menengah Kejuruan Negeri 1 Jakarta adalah sekolah teknik yang tergolong paling tua diantara
+          sekolah teknik yang ada di Jakarta. Menurut informasi para sesepuh, sekolah ini didirikan pada tahun
+          1906 oleh Belanda dengan nama “KONING KLIKE WILHELMINA SCHOOL” yang disingkat KWS. KWS tersebut
+          didirikan belanda dengan tujuan mendidik siswa-sisiwa Belanda dan siswi pribumi pilihan untuk
+          membangun negara Hindia Belanda.</p>
+      </div>
+      <div align="center" class="column3" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;float:left;width:33.33%;padding:10px;height:300px;border:solid #ffffff;border-radius:15px;color:#000000;background-color:#FFD124;">
+        <h2 align="center" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">Login</h2>
+        <br style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">
+        <div style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">
+          <i style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;color:teal;padding:5px;border-radius:5px;margin-bottom:20px;"></i> <input class="nama" placeholder="Email" type="email" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;color:teal;padding:5px;border-radius:5px;margin-bottom:20px;">
+        </div>
+        <div style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">
+          <i style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;color:teal;padding:5px;border-radius:5px;margin-bottom:10px;"></i> <input class="pass" placeholder="Password" type="password" name="" id="" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;color:teal;padding:5px;border-radius:5px;margin-bottom:10px;">
+        </div>
+        <a href="#" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;">Lupa password</a><br style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">
+        <a href="#" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;">Daftar</a><br style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">
+        <button class="btn-submit" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-top:25px;margin-bottom:20px;background-color:#0093AB;color:#ffffff;padding:5px 15px;border-radius:8px;cursor:pointer;box-shadow:5px 5px #ff6347;transition:all 0.5s ease 0s;">Login</button>
+      </div>
+    </div>
+  </div>
+</body>
+<div id="mobile" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">
+  <div class="div1" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;background-color:#fcd80b;border-radius:20px;margin:20px 10px;padding:10px;">
+    <h2 align="center" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">Profil Sekolah</h2>
+    <video controls width="350px" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;border-radius:15px;margin-bottom:5px;">
+      <source src="assets/img/PROFILE SMKN 1 JAKARTA 2021.mp4" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">
+    </source></video>
+</div>
+<div class="div2" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;color:#ffffff;background-color:#0093AB;border-radius:20px;margin:20px 10px;padding:20px;text-align:justify;">
+  <h2 align="center" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-transform:uppercase;">sejarah</h2>
+  <p style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">Sekolah Menengah Kejuruan Negeri 1 Jakarta adalah sekolah teknik yang tergolong paling tua diantara sekolah
+    teknik yang ada di Jakarta. Menurut informasi para sesepuh, sekolah ini didirikan pada tahun 1906 oleh
+    Belanda dengan nama “KONING KLIKE WILHELMINA SCHOOL” yang disingkat KWS. </p>
+</div>
+<div class="div3" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;background-color:#fcd80b;border-radius:20px;margin:20px 10px;padding:10px;text-align:center;">
+  <h2 align="center" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">Login</h2>
+  <br style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">
+  <div style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">
+    <i style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;color:teal;padding:5px;border-radius:5px;margin-bottom:20px;"></i> <input class="nama" placeholder="Email" type="email" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;color:teal;padding:5px;border-radius:5px;margin-bottom:20px;">
+  </div>
+  <div style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">
+    <i style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;color:teal;padding:5px;border-radius:5px;margin-bottom:10px;"></i> <input class="pass" placeholder="Password" type="password" name="" id="" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;color:teal;padding:5px;border-radius:5px;margin-bottom:10px;">
+  </div>
+  <a href="#" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;">Lupa password</a><br style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">
+  <a href="#" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;">Daftar</a><br style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">
+  <button class="btn-submit" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-top:25px;margin-bottom:20px;background-color:#0093AB;color:#ffffff;padding:5px 15px;border-radius:8px;cursor:pointer;box-shadow:5px 5px #ff6347;transition:all 0.5s ease 0s;">Login</button>
+</div>
+</div>
+<div class="title" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">
+  <h1 style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-top:20px;margin-bottom:25px;text-align:center;text-transform:uppercase;">Berita</h1>
+</div>
+<div class="container" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;display:flex;flex-wrap:wrap;flex-direction:row;margin-left:20px;margin-right:20px;">
+  <div class="card" style="margin:20;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;padding:15px;background-color:#FFD124;border-radius:15px;max-width:350px;">
+    <img src="http://smkn1jakarta.sch.id/wp-content/uploads/2022/08/Kerjasama-Sekolah-Binaan-dan-Penyelerasan-Kurikulum-PT-KOMATSU-INDONESIA-di-SMKN-1-Jakarta.jpeg" alt="" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;width:300px;border-radius:10px;margin:10px auto 15px auto;display:block;">
+    <span class="tanggal" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;"><i   style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-bottom:20px;margin-left:5px;"></i> 30 Agustus 2022</span>
+    <p class="judul" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;scroll-behavior:smooth;text-transform:uppercase;color:#003865;font-weight:600;font-size:21px;margin-bottom:10px;text-align:left;">Kerjasama Sekolah Binaan dan Penyelarasan Kurikulum PT KOMATSU INDONESIA</p>
+    <p class="description" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-align:center;text-align:left;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, debitis.</p>
+    <a href="http://smkn1jakarta.sch.id/kerjasama-sekolah-binaan-dan-penyelarasan-kurikulum-pt-komatsu-indonesia/" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;text-align:center;display:block;margin-top:20px;background-color:#009578;padding:7px;border-radius:10px;padding-bottom:auto;">Baca
+      Selengkapnya <i style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-left:5px;"></i></a>
+  </div>
+  <div class="card" style="margin:20;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;padding:15px;background-color:#FFD124;border-radius:15px;max-width:350px;">
+    <img src="http://smkn1jakarta.sch.id/wp-content/uploads/2022/08/Monitoring-Persiapan-ANBK-Oleh-Kasi-Kurikulum-Dinas-Pendidikan-Provinsi-DKI-Jakarta-Ibu-Erni-Mawarni-MPd.jpeg" alt="" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;width:300px;border-radius:10px;margin:10px auto 15px auto;display:block;">
+    <span class="tanggal" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;"><i   style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-bottom:20px;margin-left:5px;"></i> 29 Agustus 2022</span>
+    <p class="judul" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;scroll-behavior:smooth;text-transform:uppercase;color:#003865;font-weight:600;font-size:21px;margin-bottom:10px;text-align:left;">Monitoring Persiapan ANBK Oleh Kasi Kurikulum Dinas Pendidikan Provinsi DKI Jakarta</p>
+    <p class="description" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-align:center;text-align:left;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, debitis.</p>
+    <a href="http://smkn1jakarta.sch.id/monitoring-persiapan-anbk-oleh-kasi-kurikulum-dinas-pendidikan-provinsi-dki-jakarta-ibu-erni-mawarni-m-pd/" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;text-align:center;display:block;margin-top:20px;background-color:#009578;padding:7px;border-radius:10px;padding-bottom:auto;">Baca
+      Selengkapnya <i style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-left:5px;"></i></a>
+  </div>
+  <div class="card" style="margin:20;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;padding:15px;background-color:#FFD124;border-radius:15px;max-width:350px;">
+    <img src="assets/img/MGMP-Pendidikan-Agama-dan-Budipekerti-Melaksanakan-Bina-Iman-dan-Taqwa.jpeg" alt="" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;width:300px;border-radius:10px;margin:10px auto 15px auto;display:block;">
+    <span class="tanggal" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;"><i   style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-bottom:20px;margin-left:5px;"></i> 26 Agustus 2022</span>
+    <p class="judul" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;scroll-behavior:smooth;text-transform:uppercase;color:#003865;font-weight:600;font-size:21px;margin-bottom:10px;text-align:left;">MGMP Pendidikan Agama dan Budipekerti Melaksanakan Bina Iman dan Taqwa</p>
+    <p class="description" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-align:center;text-align:left;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, debitis.</p>
+    <a href="http://smkn1jakarta.sch.id/mgmp-pendidikan-agama-dan-budipekerti-melaksanakan-bina-iman-dan-taqwa/" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;text-align:center;display:block;margin-top:20px;background-color:#009578;padding:7px;border-radius:10px;padding-bottom:auto;">Baca
+      Selengkapnya <i style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-left:5px;"></i></a>
+  </div>
+  <div class="card" style="margin:20;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;padding:15px;background-color:#FFD124;border-radius:15px;max-width:350px;">
+    <img src="http://smkn1jakarta.sch.id/wp-content/uploads/2022/08/Pengarahan-ANBK-Oleh-Kepala-Sekolah-SMKN-1-Jakarta-Bpk-Maman-Ruhiman-MPd.jpeg" alt="" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;width:300px;border-radius:10px;margin:10px auto 15px auto;display:block;">
+    <span class="tanggal" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;"><i   style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-bottom:20px;margin-left:5px;"></i> 25 Agustus 2022</span>
+    <p class="judul" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;scroll-behavior:smooth;text-transform:uppercase;color:#003865;font-weight:600;font-size:21px;margin-bottom:10px;text-align:left;">Pengarahan ANBK Oleh Kepala Sekolah SMKN 1 Jakarta Bpk. Maman Ruhiman, M.Pd</p>
+    <p class="description" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-align:center;text-align:left;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, debitis.</p>
+    <a href="http://smkn1jakarta.sch.id/pengarahan-anbk-oleh-kepala-sekolah-smkn-1-jakarta-bpk-maman-ruhiman-m-pd/" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;text-align:center;display:block;margin-top:20px;background-color:#009578;padding:7px;border-radius:10px;padding-bottom:auto;">Baca
+      Selengkapnya <i style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-left:5px;"></i></a>
+  </div>
+  <div id="readmore" style="margin:20;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-left:auto;margin-right:auto;margin-top:25px;">
+    <button class="readmore" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;background-color:teal;padding:5px;border-radius:5px;">
+      <a href="#" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;">
+        <h3 style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">Berita Lainnya</h3>
+      </a>
+    </button>
+  </div>
+  <div id="readmore-mobile" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">
+    <button class="readmore" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;background-color:teal;padding:5px;border-radius:5px;">
+      <a href="#" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;">
+        <h3 style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">Berita Lainnya</h3>
+      </a>
+    </button>
+  </div>
+</div>
+<div class="ekskul" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-bottom:30px;">
+  <h1 align="center" style="margin:20;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">Ekstrakurikuler</h1>
+  <img src="assets/img/pramuka.png" width="125" alt="pramuka" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-top:20px;margin-left:35px;display:inline-block;">
+  <img src="assets/img/pmr.png" width="125" alt="pmr" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-top:20px;margin-left:35px;display:inline-block;">
+  <img src="assets/img/teksapala.jpg" width="125" alt="teksapala" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-top:20px;margin-left:35px;display:inline-block;">
+  <img src="assets/img/kir.jpg" width="125" alt="kir" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-top:20px;margin-left:35px;display:inline-block;">
+  <img src="assets/img/rohis.jpg" width="125" alt="rohis" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-top:20px;margin-left:35px;display:inline-block;">
+  <img src="assets/img/rohkris.jpg" width="125" alt="rohkris" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-top:20px;margin-left:35px;display:inline-block;">
+  <img src="assets/img/band.jpg" width="125" alt="band" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-top:20px;margin-left:35px;display:inline-block;">
+  <img src="assets/img/futsal.jpg" width="95" alt="futsal" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-top:20px;margin-left:35px;display:inline-block;">
+  <img src="assets/img/basket.png" width="150" alt="basket" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-top:20px;margin-left:35px;display:inline-block;">
+  <img src="assets/img/voli.png" width="135" alt="voli" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-top:20px;margin-left:35px;display:inline-block;">
+  <img src="assets/img/badminton.jpg" width="145" alt="badminton" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-top:20px;margin-left:35px;display:inline-block;">
+  <img src="assets/img/karate.jpg" width="140" alt="karate" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-top:20px;margin-left:35px;display:inline-block;">
+  <img src="assets/img/kbbi.jpg" width="130" alt="kbbi" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-top:20px;margin-left:35px;display:inline-block;">
+  <img src="assets/img/toec.jpg" width="125" alt="toec" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-top:20px;margin-left:35px;display:inline-block;">
+  <img src="assets/img/tari.jpg" width="130" alt="tari" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-top:20px;margin-left:35px;display:inline-block;">
+  <img class="paskib" src="assets/img/paskibra.jpg" width="125" alt="paskibra" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;border-radius:50%;margin-top:20px;margin-left:35px;display:inline-block;">
+</div>
+<div class="footer" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-top:30px;background-color:#009578;height:55vh;">
+  <div class="content-footer" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;padding-top:50px;margin-left:30px;">
+    <div class="logo-footer" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;float:left;">
+      <img src="assets/img/SMKN1-JAKARTA.png" alt="" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-top:5px;margin-left:125px;margin-right:125px;width:125px;">
+      <h1 align="center" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;color: #fff; margin-top: 10px;">SMKN 1 Jakarta</h1>
+    </div>
+    <div class="list-footer" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-right:100px;float:left;margin-bottom:50px;color:#ffffff;">
+      <h2 style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">LINK LAINNYA</h2>
+      <ul class="foot-list" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-top:20px;">
+        <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a href="index.html" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;">Beranda</a></li>
+        <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a href="identitas.html" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;">Identitas Sekolah</a></li>
+        <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a href="visi-misi.html" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;">Visi & Misi</a></li>
+        <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a href="tujuan.html" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;">Tujuan Sekolah</a></li>
+        <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a href="#" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;">Prestasi</a></li>
+      </ul>
+    </div>
+    <div class="list-footer2" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;color:#ffffff;float:left;margin-right:100px;">
+      <h2 style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">APLIKASI</h2>
+      <ul class="foot-list" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-top:20px;">
+        <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a href="#" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;">Erapor SMKN 1 Jakarta</a></li>
+        <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a href="#" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;">Penilaian Tengah Semester TA 2022/2023</a></li>
+        <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a href="#" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;">Ujian Sekolah (US)</a></li>
+        <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a href="#" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;">LSP P1 SMKN 1 Jakarta</a></li>
+        <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a href="#" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;">HUBIN SMKN 1 Jakarta</a></li>
+      </ul>
+    </div>
+    <div class="list-footer2" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;color:#ffffff;float:left;margin-right:100px;">
+      <h2 style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">IKUTI SOSIAL MEDIA KAMI!</h2>
+      <ul class="foot-list2" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-top:20px;">
+        <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a onclick="redirTel()" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;"><i class="bx bx-phone icon" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;padding:2px;float:left;font-size:35px;margin:0px 10px 0px 0px;"></i></a></li>
+        <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a onclick="redirFB()" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;"><i class="bx bxl-facebook-circle icon" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;padding:2px;float:left;font-size:35px;margin:0px 10px 0px 0px;"></i></a></li>
+        <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a onclick="redirTwitter()" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;"><i class="bx bxl-twitter icon" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;padding:2px;float:left;font-size:35px;margin:0px 10px 0px 0px;"></i></a></li>
+        <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a onclick="redirYT()" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;"><i class="bx bxl-youtube icon" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;padding:2px;float:left;font-size:35px;margin:0px 10px 0px 0px;"></i></a></li>
+        <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a onclick="redirIG()" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;"><i class="bx bxl-instagram icon" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;padding:2px;float:left;font-size:35px;margin:0px 10px 0px 0px;"></i></a></li>
+        <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a onclick="redirTiktok()" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;"><i class="bx bxl-tiktok icon" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;padding:2px;float:left;font-size:35px;margin:0px 10px 0px 0px;"></i></a></li>
+      </ul>
+    </div>
+    <div class="copy" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;clear:both;color:#eaeaeacc;padding-top:40px;padding-bottom:35px;text-align:center;width:100%;display:block;float:inline-start;cursor:pointer;">
+      <h4 style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">&copy 2022 dibuat dengan <i class="fa fa-heart" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;color:red;"></i> oleh <a onclick="redirBio()" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;color:#eaeaeacc;">Syaddad</a> </h4>
+    </div>
+  </div>
+</div>
+<div class="footer-mobile" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;padding:10px;background-color:#009578;">
+  <div class="content-footer" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;padding-top:50px;margin-left:30px;">
+    <div class="mobile" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">
+      <div class="list-footer" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-right:100px;float:left;margin-bottom:50px;color:#ffffff;">
+        <h2 style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">APLIKASI</h2>
+        <ul class="foot-list" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-top:20px;">
+          <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a href="" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;">Erapor SMKN 1 Jakarta</a></li>
+          <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a href="" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;">Penilaian Tengah Semester TA 2022/2023</a></li>
+          <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a href="" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;">Ujian Sekolah (US)</a></li>
+          <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a href="" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;">LSP P1 SMKN 1 Jakarta</a></li>
+          <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a href="" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;">HUBIN SMKN 1 Jakarta</a></li>
+        </ul>
+      </div>
+      <div class="list-footer2" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;color:#ffffff;float:left;margin-right:100px;">
+        <h2 style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">SOSIAL MEDIA KAMI!</h2>
+        <ul class="foot-list2" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;margin-top:20px;">
+          <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a href="" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;"><i class="bx bx-phone icon" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;padding:2px;float:left;font-size:35px;margin:0px 10px 0px 0px;"></i></a></li>
+          <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a href="" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;"><i class="bx bxl-facebook-circle icon" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;padding:2px;float:left;font-size:35px;margin:0px 10px 0px 0px;"></i></a></li>
+          <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a href="" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;"><i class="bx bxl-twitter icon" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;padding:2px;float:left;font-size:35px;margin:0px 10px 0px 0px;"></i></a></li>
+          <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a href="" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;"><i class="bx bxl-youtube icon" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;padding:2px;float:left;font-size:35px;margin:0px 10px 0px 0px;"></i></a></li>
+          <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a href="" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;"><i class="bx bxl-instagram icon" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;padding:2px;float:left;font-size:35px;margin:0px 10px 0px 0px;"></i></a></li>
+          <li style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;list-style:none;margin-top:5px;"><a href="" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;"><i class="bx bxl-tiktok icon" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;padding:2px;float:left;font-size:35px;margin:0px 10px 0px 0px;"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy-mobile" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;clear:both;color:#eaeaeacc;padding-top:40px;padding-bottom:35px;margin-left:auto;">
+      <h4 style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;">&copy 2022 dibuat dengan ❤️ oleh <a onclick="redirBio()" style="margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;font-weight:600;scroll-behavior:smooth;text-decoration:none;color:#ffffff;color:#eaeaeacc;">Syaddad</a> </h4>
+    </div>
+  </div>
+</div>
+</html>
